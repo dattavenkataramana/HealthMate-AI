@@ -22,3 +22,6 @@ Thumbs.db
 # Secrets
 .env
 **/.env
+
+# Local docs / assessment notes (keep out of GitHub)
+documentation/

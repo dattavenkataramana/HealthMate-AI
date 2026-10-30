@@ -35,7 +35,7 @@ export default function Home() {
       setProviders(data);
     } catch {
       setProviderError(
-        "Unable to load providers. Make sure the FastAPI backend is running on port 8000."
+        "Unable to load providers. Check the API connection and try again."
       );
       setProviders([]);
     } finally {

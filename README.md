@@ -98,13 +98,15 @@ App: [http://localhost:3010](http://localhost:3010)
 | POST | `/api/assistant` | AI chat |
 | POST | `/api/summary` | Generate appointment summary |
 
-## Assessment submission package
+## Live demo
 
-1. **Project link** — this GitHub repository / live demo
-2. **Prompt documentation** — `documentation/prompt-documentation.md`
-3. **Video presentation** — record a 2+ minute walkthrough of the running app
+- Frontend: https://health-mate-ai-beige.vercel.app/
+- Backend API: https://healthmate-ai-66g2.onrender.com/
+- API docs: https://healthmate-ai-66g2.onrender.com/docs
 
-Email submission to: `jobs@gokulinfocare.com`
+## Assessment submission
+
+Email submission to: `jobs@gokulinfocare.com` with live demo, GitHub, video, and prompt documentation.
 
 ## Prompt engineering highlights
 

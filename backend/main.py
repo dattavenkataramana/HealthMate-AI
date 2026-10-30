@@ -33,7 +33,7 @@ app = FastAPI(
 
 allowed_origins = os.getenv(
     "CORS_ORIGINS",
-    "http://localhost:3000,http://127.0.0.1:3000",
+    "http://localhost:3000,http://127.0.0.1:3000,http://localhost:3010,http://127.0.0.1:3010,https://health-mate-ai-beige.vercel.app",
 ).split(",")
 
 app.add_middleware(
