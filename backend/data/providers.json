@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Ananya Sharma",
+    "specialty": "General Physician",
+    "location": "Hyderabad",
+    "experience_years": 12,
+    "languages": ["English", "Hindi", "Telugu"],
+    "available_slots": ["09:00", "10:30", "14:00", "16:30"],
+    "bio": "Experienced general physician focused on preventive care and lifestyle guidance."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rahul Mehta",
+    "specialty": "Cardiologist",
+    "location": "Bengaluru",
+    "experience_years": 15,
+    "languages": ["English", "Hindi"],
+    "available_slots": ["11:00", "13:00", "15:30", "17:00"],
+    "bio": "Cardiologist specializing in hypertension, cholesterol management, and heart-health education."
+  },
+  {
+    "id": 3,
+    "name": "Dr. Priya Nair",
+    "specialty": "Dermatologist",
+    "location": "Chennai",
+    "experience_years": 10,
+    "languages": ["English", "Tamil", "Malayalam"],
+    "available_slots": ["09:30", "12:00", "15:00", "18:00"],
+    "bio": "Dermatologist helping patients with skin care routines and common dermatology concerns."
+  },
+  {
+    "id": 4,
+    "name": "Dr. Vikram Reddy",
+    "specialty": "Orthopedic",
+    "location": "Hyderabad",
+    "experience_years": 14,
+    "languages": ["English", "Telugu"],
+    "available_slots": ["10:00", "12:30", "16:00", "17:30"],
+    "bio": "Orthopedic specialist focused on joint pain, sports injuries, and rehabilitation guidance."
+  },
+  {
+    "id": 5,
+    "name": "Dr. Sneha Kapoor",
+    "specialty": "Pediatrician",
+    "location": "Mumbai",
+    "experience_years": 11,
+    "languages": ["English", "Hindi", "Marathi"],
+    "available_slots": ["09:00", "11:30", "14:30", "16:00"],
+    "bio": "Pediatrician supporting child wellness visits, growth tracking, and parent education."
+  },
+  {
+    "id": 6,
+    "name": "Dr. Arjun Iyer",
+    "specialty": "Neurologist",
+    "location": "Bengaluru",
+    "experience_years": 13,
+    "languages": ["English", "Kannada", "Hindi"],
+    "available_slots": ["10:30", "13:30", "15:00", "17:00"],
+    "bio": "Neurologist helping patients understand migraine patterns, sleep hygiene, and follow-up planning."
+  }
+]

@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f3f8f7;
+  --foreground: #12383b;
+  --brand: #0f766e;
+  --brand-dark: #115e59;
+  --accent: #0ea5a4;
+  --surface: #ffffff;
+  --muted: #5b6b73;
+  --line: #d7e5e2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: #12383b;
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-fraunces);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #12383b;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 164, 0.18), transparent 35%),
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.14), transparent 28%),
+    linear-gradient(180deg, #eef7f5 0%, #f7fbfa 42%, #f3f8f7 100%);
+  font-family: var(--font-manrope), "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(215, 229, 226, 0.9);
+  box-shadow: 0 18px 50px rgba(17, 94, 89, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.fade-up {
+  animation: fadeUp 0.55s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
